@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.js": "/personal_website/static/js/main.f13d744d.js",
+    "main.css": "/personal_website/static/css/main.67ee296b.css",
+    "main.js": "/personal_website/static/js/main.edce00e5.js",
     "static/js/787.5809834d.chunk.js": "/personal_website/static/js/787.5809834d.chunk.js",
+    "static/media/billGates.jpg": "/personal_website/static/media/billGates.17be72a36d7f1cad75fb.jpg",
     "index.html": "/personal_website/index.html",
-    "main.f13d744d.js.map": "/personal_website/static/js/main.f13d744d.js.map",
+    "main.67ee296b.css.map": "/personal_website/static/css/main.67ee296b.css.map",
+    "main.edce00e5.js.map": "/personal_website/static/js/main.edce00e5.js.map",
     "787.5809834d.chunk.js.map": "/personal_website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f13d744d.js"
+    "static/css/main.67ee296b.css",
+    "static/js/main.edce00e5.js"
   ]
 }
