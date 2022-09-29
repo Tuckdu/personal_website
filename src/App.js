@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {BrowserRouter,Route, Routes} from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -8,19 +8,17 @@ import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
 
 const App = () => {
-  
-  const baseUrl = "personal_website";
   return (
     <>
-      <BrowserRouter>
+    <BrowserRouter basename="/personal_website">
         <Routes>
-          <Route path={baseUrl+"/"} element={<Home />}/>
-          <Route path={baseUrl+"/contact"} element={<Contact />}/>
-          <Route path={baseUrl+"/knowledges"} element={<Knowledges />}/>
-          <Route path={baseUrl+"/portfolio"} element={<Portfolio />}/>
+          <Route path={"/"} element={<Home />}/>
+          <Route path={"/contact"} element={<Contact />}/>
+          <Route path={"/knowledges"} element={<Knowledges />}/>
+          <Route path={"/portfolio"} element={<Portfolio />}/>
           <Route path="*" element={<NotFound />}/>
         </Routes>
-      </BrowserRouter>
+    </BrowserRouter>
     </>
   );
 };
