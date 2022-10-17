@@ -4,11 +4,11 @@ $font-1: 'Nova Round', cursive;
 $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
-$color-1: #2A1D52;
-$color-2: #6C77F4;
-$color-3: #63A4E9;
-$color-4: #4FEDD2;
-$color-5: #36D0EA;
+$color-1: #2A3234;
+$color-2: #2A3234;
+$color-3: #3D9C44;
+$color-4: #C3FFCA;
+$color-5: #5ED366;
 $white: #DDD;
 $black: #333;
 
@@ -32,7 +32,8 @@ body {
     margin: 1rem auto;
     max-width: 1200px;
     font-family: $font-1;
-    color: $black;
+    color: $white;
+    background-color: #131617;
 }
 
 button {
@@ -45,11 +46,11 @@ li {
 
 a {
     text-decoration: none;
-    color: $black;
+    color: $white;
     cursor: pointer;
 }
 a:visited {
-    color: $black;
+    color: $white;
 }
 
 .home, .knowledges, .portfolio, .contact {

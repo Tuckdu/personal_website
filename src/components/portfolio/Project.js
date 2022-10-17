@@ -5,10 +5,19 @@ class Project extends Component {
         showInfo: false
     }
 
-    handleToggleInfo = () => {
-        this.setState({
-            showInfo:!this.state.showInfo
-        })
+    handleToggleInfo = (e) => {
+        let a = e.target;
+        const parents = [];
+        while (a) {
+            parents.push(a.className);
+            a = a.parentNode;
+        }
+        if(!(parents.includes("showInfos",1))){
+            this.setState({
+                showInfo:!this.state.showInfo
+            })
+        }
+        console.log(parents)
     }
 
 
@@ -22,7 +31,7 @@ class Project extends Component {
                                 </div>);
 
         return (
-            <div className={"project " + (showInfo ? 'noHover' : '')} onClick={this.handleToggleInfo}>
+            <div className={"project" + (showInfo ? ' noHover' : '')} onClick={this.handleToggleInfo}>
                 <div className="icons">
                     {languagesIcons.map(icon => <i className={icon} key={icon}></i>)}
                 </div>
