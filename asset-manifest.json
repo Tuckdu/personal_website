@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/personal_website/static/css/main.e1b2db5c.css",
-    "main.js": "/personal_website/static/js/main.f6e214f1.js",
+    "main.css": "/personal_website/static/css/main.2eaa4077.css",
+    "main.js": "/personal_website/static/js/main.b56d93cb.js",
     "static/js/787.5809834d.chunk.js": "/personal_website/static/js/787.5809834d.chunk.js",
+    "static/media/tree_avenue.jpg": "/personal_website/static/media/tree_avenue.98332513b99dbc5b9e31.jpg",
+    "static/media/code_line_bg.jpg": "/personal_website/static/media/code_line_bg.e8948c9a926c452ac7dd.jpg",
     "static/media/CV.pdf": "/personal_website/static/media/CV.60ee6c30f47c0eb51132.pdf",
-    "static/media/bigGates.jpg": "/personal_website/static/media/bigGates.88d13cc1cdf384c69092.jpg",
     "static/media/project6.JPG": "/personal_website/static/media/project6.1ad97c374105973df458.JPG",
     "static/media/photo_profil.jpg": "/personal_website/static/media/photo_profil.be9336821d23e9a7abb2.jpg",
     "static/media/project2.JPG": "/personal_website/static/media/project2.1b5fb7985b6816b13c7a.JPG",
-    "static/media/map.jpg": "/personal_website/static/media/map.3e5949c9b6f7cd03bd31.jpg",
     "static/media/project5.JPG": "/personal_website/static/media/project5.6b371dcf76f943c5a20b.JPG",
     "static/media/project4.JPG": "/personal_website/static/media/project4.b263b8481a829121c46f.JPG",
     "static/media/project3.JPG": "/personal_website/static/media/project3.d968b0623da0fba07716.JPG",
     "static/media/project1.JPG": "/personal_website/static/media/project1.c327c9a16bf0cfdba26c.JPG",
     "index.html": "/personal_website/index.html",
-    "static/media/shape.svg": "/personal_website/static/media/shape.304b3ad310f9f544faf4.svg",
-    "main.e1b2db5c.css.map": "/personal_website/static/css/main.e1b2db5c.css.map",
-    "main.f6e214f1.js.map": "/personal_website/static/js/main.f6e214f1.js.map",
+    "main.2eaa4077.css.map": "/personal_website/static/css/main.2eaa4077.css.map",
+    "main.b56d93cb.js.map": "/personal_website/static/js/main.b56d93cb.js.map",
     "787.5809834d.chunk.js.map": "/personal_website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1b2db5c.css",
-    "static/js/main.f6e214f1.js"
+    "static/css/main.2eaa4077.css",
+    "static/js/main.b56d93cb.js"
   ]
 }
