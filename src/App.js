@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Knowledges from './pages/Knowledges';
 import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
+import Reimbursement from './pages/Reimbursement';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path={"/contact"} element={<Contact />}/>
           <Route path={"/knowledges"} element={<Knowledges />}/>
           <Route path={"/portfolio"} element={<Portfolio />}/>
+          <Route path={"/remboursement_loyer"} element={<Reimbursement />}/>
           <Route path="*" element={<NotFound />}/>
         </Routes>
     </BrowserRouter>
