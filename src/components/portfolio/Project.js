@@ -17,7 +17,6 @@ class Project extends Component {
                 showInfo:!this.state.showInfo
             })
         }
-        console.log(parents)
     }
 
 

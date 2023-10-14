@@ -2,23 +2,31 @@ import React, { Component } from 'react';
 
 class ComputeValue extends Component {
     state = {
-        inputValue: 0.0
+        inputElectricity: 0.0,
+        inputWifi: 30.49
     }
 
-    updateInputValue(evt) {
+    updateInputElectricity(evt) {
         const val = evt.target.valueAsNumber;    
         this.setState({
-          inputValue: val ? val : 0.0
+          inputElectricity: val ? val : 0.0
         });
-      }
+    }
+
+    updateInputWifi(evt) {
+        const val = evt.target.valueAsNumber;    
+        this.setState({
+            inputWifi: val ? val : 0.0
+        });
+    }
 
     render() {
 
-        const electricity = Number(this.state.inputValue)
-        const wifi = 28.99;
+        const electricity = Number(this.state.inputElectricity)
+        const wifi = Number(this.state.inputWifi);
 
-        const rent = 700.0;
-        const waterCharge = 68.0;
+        const rent = 724.46;
+        const waterCharge = 48.0;
         const garbageTaxe = 8.42;
 
         const chargeMorgane = electricity + wifi;
@@ -62,8 +70,16 @@ class ComputeValue extends Component {
                                     id="electricityPrice" 
                                     name="electricityPrice" 
                                     min='0'
-                                    value={Number(electricity).toString()} onChange={evt => this.updateInputValue(evt)}/>
-                                <p>Wi-fi : {wifi}</p>
+                                    value={electricity.toString()} onChange={evt => this.updateInputElectricity(evt)}/>
+                                <p></p>
+                                <label for="wifiPrice">Wi-fi : </label>
+                                <input 
+                                    type="number"
+                                    step="0.01"
+                                    id="wifiPrice" 
+                                    name="wifiPrice" 
+                                    min='0'
+                                    value={wifi.toString()} onChange={evt => this.updateInputWifi(evt)}/>
                                 <p>Sous-total : {chargeMorgane.toFixed(2)}</p>
                             </div>
                             </td>
